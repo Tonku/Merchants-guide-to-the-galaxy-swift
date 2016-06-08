@@ -3,10 +3,31 @@
 
 # About the GalaxyMerchant application
 
-This is a programming puzzle, this is a swift 2.2 implementation 
-The application is done with the latest version of swift and tested for ios 9.2
+This is a common programming puzzle, here is a swift 2.2 implementation 
+The application is delevoped with the latest version of swift (2.2) and tested for ios 9.2
+Unit tests are provided
 
-The question is like this
+The application's main user interface is developed using stack views, nothing fancy about it, it has following components
+
+1, Input text view
+
+A pre populated text view with test input ready, but can be edited at will
+
+2, Output text view
+
+Displays the test result, it clears the text every time a new test is about to run
+
+3, Run test button
+
+A button to run the test
+
+# How to run the application
+
+Build and run in iPhone, the app user interface is provided with preloaded test input, you can run the test by taping the Run test button.
+
+
+
+# The question is like this
 
 You decided to give up on earth after the latest financial collapse left 99.99% of the earth's population with 0.01% of the wealth. Luckily, with the scant sum of money that is left in your account, you are able to afford to rent a spaceship, leave earth, and fly all over the galaxy to sell common metals and dirt (which apparently is worth a lot).Buying and selling over the galaxy requires you to convert numbers and units, and you decided to write a program to help you.The numbers used for intergalactic transactions follows similar convention to the roman numerals and you have painstakingly collected the appropriate translation between them.Roman numerals are based on seven symbols:
 
@@ -52,31 +73,9 @@ glob prok Gold is 57800 Credits<br />
 glob prok Iron is 782 Credits<br />
 I have no idea what you are talking about<br />
 
-# Unit tests are provided using XCTest
 
-The application's main user interface is done using stack views, nothing fancy about it, it has following components
 
-1, Input text view
-
-A pre populated text view with test input ready, but can be edited at will
-
-2, Output text view
-
-Displays the test result, it clears the text every time a new test is about to run
-
-3, Run test button
-
-A button to run the test
-
-# How to run the application
-
-Build and run in iPhone, the app user interface is provided with preloaded test input, you can run the test by taping the Run test button.
-
-# How to run unit tests
-
-In the unit test target go to the GalaxyMerchantTests.swift file and run all tests
-
-Assumptions
+# Assumptions
 
 1, A galaxy numeral is any word that is provided with a mapped roman numeral
 
